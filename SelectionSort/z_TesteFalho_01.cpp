@@ -10,11 +10,10 @@
         int z = 0; //variável para receber o índice
         bool teste = false; //variável para confirmar que houve troca
         
-        for( int i = 0 ; i < n ; i++) //for para percorrer o vetor
+        for( int i = 0 ; i < n-1 ; i++) //for para percorrer o vetor
         {
-            for( int j = i ; j < n ; j++) // j vai selmpre estar paralelo ao elemento comparado
+            for( int j = i + 1 ; j < n ; j++) // j vai selmpre estar paralelo ao elemento comparado
             {
-                //nota ; perguntar se eu to inicializando aqui atoa, pq o primeiro ciclo desse for sempre não rola nada
                 if ( vet [j] < menorValor)
                 {
                     menorValor = vet [j];
@@ -32,9 +31,8 @@
                 teste = false; // ele precisa voltar a ser false pro teste ser feito novamente no próximo ciclo do for interno
             } else
             {
-                menorValor = vet[i+1] // pra ocorrer a mudança do menor que eu to comparando mesmo quando não entrar no if. Se não vou ficar preso no mesmo menor 
+                menorValor = vet[i+1]; // pra ocorrer a mudança do menor que eu to comparando mesmo quando não entrar no if. Se não vou ficar preso no mesmo menor 
             }
-
 
         }
     }
