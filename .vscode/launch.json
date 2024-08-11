@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Breno/Desktop/OrdenaçãoAlgoritmos2/BubbleSort",
-      "program": "c:/Users/Breno/Desktop/OrdenaçãoAlgoritmos2/BubbleSort/build/Debug/outDebug",
+      "cwd": "c:/Users/Breno/Desktop/OrdenaçãoAlgoritmos2/01 - SelectionSort",
+      "program": "c:/Users/Breno/Desktop/OrdenaçãoAlgoritmos2/01 - SelectionSort/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
